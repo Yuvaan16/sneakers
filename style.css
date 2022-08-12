@@ -203,3 +203,32 @@ img {
 .small-btn:hover, .small-btn-l:hover{
   opacity: 100%;
 }
+
+/* banner */
+.banner {
+  margin-top: 0px;
+}
+
+/* columns */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .left {
+    width: 25%;
+  }
+
+  .right {
+    width: 75%;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
