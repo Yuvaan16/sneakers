@@ -156,15 +156,27 @@ img {
   font-size: 1em;
   text-align: center;
   border-radius: 10px;
-  aspect-ratio : 1 / 1;
+  aspect-ratio: 2/1;
 }
-
 .grid-text-secondary {
   font-size: 0.5em;
   font-weight: 300;
 }
-
 .grid-img {
-  width: 60%;
+  width: 70%;
 }
 .c1 {background-color: #dffff2;} .c2 {background-color: #dfefff;} .c3 {background-color:  #ffebdf;}
+.small-btn-l {
+  height: 1.2em; 
+  width: 1.2em;
+  float: right;
+  margin-left: 10%;
+}
+.small-btn {
+  height: 1.2em; 
+  width: 1.2em;
+  float: right;
+}
+.small-btn:hover, .small-btn-l:hover{
+  filter: contrast(500%);
+}
