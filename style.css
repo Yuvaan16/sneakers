@@ -167,15 +167,15 @@ img {
 }
 .c1 {background-color: #dffff2;} .c2 {background-color: #dfefff;} .c3 {background-color:  #ffebdf;}
 .small-btn-l {
-  height: 1.2em; 
+  height: 1.2em;
   width: 1.2em;
   float: right;
-  margin-left: 10%;
 }
 .small-btn {
   height: 1.2em; 
   width: 1.2em;
   float: right;
+  margin-right: 15%;
 }
 .small-btn:hover, .small-btn-l:hover{
   filter: contrast(500%);
