@@ -3,7 +3,6 @@
 --black: #000000;
 --platinum: #f0f0f0;
 --green-cyan: #00ffb9;
-
 }
 
 body {
@@ -25,7 +24,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -38,6 +37,7 @@ body {
 .topnav a.active {
   background-color: var(--platinum);
   border-radius: 15px;
+  font-size: 1.1em;
 }
 
 .topnav .icon {
@@ -87,19 +87,77 @@ img {
   box-sizing: border-box;
 }
 
-.gallery-cell {
+/* carousel */
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
   width: 66%;
   height: 200px;
   margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }
-
-.gallery-cell:before {
+.carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(gallery-cell);
+  content: counter(carousel-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+/* center-text */
+.center-text {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-size: 0.8em;
+  margin-top: 2%;
+}
+
+.center-text-s {
+  text-align: center;
+  margin-right: 0px;
+  font-size: 1em;
+}
+
+/* left titles */
+.left-title-thin {
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  font-weight: 300;
+}
+.left-title {
+  margin-top: 0%;
+  margin-left: 5%;
+  font-size: 2em;
+}
+
+/* gridboxes */
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  column-gap: 25px;
+  row-gap: 25px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid #ffffff;
+  background-color: #00ffbb69;
+  padding: 20px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.grid-text-secondary {
+  font-size: 0.5em;
+  font-weight: 300;
 }
