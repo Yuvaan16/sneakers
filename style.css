@@ -88,8 +88,8 @@ img {
 }
 
 /* carousel */
-.carousel {
-  background: #FAFAFA;
+.carousel { 
+ background-color: var(--white);
 }
 
 .carousel-cell {
@@ -133,7 +133,7 @@ img {
 .left-title {
   margin-top: 0%;
   margin-left: 5%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* gridboxes */
@@ -147,7 +147,6 @@ img {
   column-gap: 25px;
   row-gap: 25px;
   grid-template-columns: auto auto auto;
-  background-color: #ffffff;
   padding: 10px;
 }
 
