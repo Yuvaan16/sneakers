@@ -141,6 +141,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
   display: grid;
   column-gap: 25px;
   row-gap: 25px;
@@ -151,13 +153,19 @@ img {
 
 .grid-item {
   border: 1px solid #ffffff;
-  background-color: #00ffbb69;
   padding: 20px;
   font-size: 1em;
   text-align: center;
+  border-radius: 10px;
+  aspect-ratio : 1 / 1;
 }
 
 .grid-text-secondary {
   font-size: 0.5em;
   font-weight: 300;
 }
+
+.grid-img {
+  width: 60%;
+}
+.c1 {background-color: #dffff2;} .c2 {background-color: #dfefff;} .c3 {background-color:  #ffebdf;}
